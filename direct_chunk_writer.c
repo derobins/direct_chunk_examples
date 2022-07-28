@@ -3,7 +3,7 @@
  * Sample program for ITER demonstrating direct chunk operations
  *
  * To build:
- *      h5cc -o writer direct_chunk_writer.c -lpthread -lm -lz
+ *      h5cc -o writer direct_chunk_writer.c -lm -lz
  *
  * - DOES require the deflate filter
  * - DOES require zlib (we're going to directly compress chunks)
